@@ -1,0 +1,41 @@
+2018-09-14T20:22:22.651+0900	INFO	instance/beat.go:544	Home path: [/Users/goojayong/mysite] Config path: [/Users/goojayong/mysite] Data path: [/Users/goojayong/mysite/data] Logs path: [/Users/goojayong/mysite/logs]
+2018-09-14T20:22:22.652+0900	INFO	instance/beat.go:551	Beat UUID: de342c2c-cfb5-4660-8497-0286818c1875
+2018-09-14T20:22:22.652+0900	INFO	[beat]	instance/beat.go:768	Beat info	{"system_info": {"beat": {"path": {"config": "/Users/goojayong/mysite", "data": "/Users/goojayong/mysite/data", "home": "/Users/goojayong/mysite", "logs": "/Users/goojayong/mysite/logs"}, "type": "filebeat", "uuid": "de342c2c-cfb5-4660-8497-0286818c1875"}}}
+2018-09-14T20:22:22.652+0900	INFO	[beat]	instance/beat.go:777	Build info	{"system_info": {"build": {"commit": "34b4e2cc75fbbee5e7149f3916de72fb8892d070", "libbeat": "6.4.0", "time": "2018-08-17T22:19:27.000Z", "version": "6.4.0"}}}
+2018-09-14T20:22:22.652+0900	INFO	[beat]	instance/beat.go:780	Go runtime info	{"system_info": {"go": {"os":"darwin","arch":"amd64","max_procs":4,"version":"go1.10.3"}}}
+2018-09-14T20:22:22.653+0900	INFO	[beat]	instance/beat.go:784	Host info	{"system_info": {"host": {"architecture":"x86_64","boot_time":"2018-09-12T22:44:58.419077+09:00","hostname":"GooJaYongui-MBP","ips":["127.0.0.1/8","::1/128","fe80::1/64","fe80::473:3e12:2a79:41c/64","192.168.0.108/24","fe80::fc1f:31ff:fe3a:573c/64","fe80::9704:fd78:cee1:e3ba/64"],"kernel_version":"17.7.0","mac_addresses":["ac:bc:32:9a:84:c9","0e:bc:32:9a:84:c9","fe:1f:31:3a:57:3c","4a:00:03:32:0b:f0","4a:00:03:32:0b:f1","4a:00:03:32:0b:f0"],"os":{"family":"darwin","platform":"darwin","name":"Mac OS X","version":"10.13.6","major":10,"minor":13,"patch":6,"build":"17G65"},"timezone":"KST","timezone_offset_sec":32400}}}
+2018-09-14T20:22:22.653+0900	INFO	[beat]	instance/beat.go:813	Process info	{"system_info": {"process": {"cwd": "/Users/goojayong/mysite", "exe": "./filebeat", "name": "filebeat", "pid": 1591, "ppid": 519, "start_time": "2018-09-14T20:22:22.621+0900"}}}
+2018-09-14T20:22:22.653+0900	INFO	instance/beat.go:273	Setup Beat: filebeat; Version: 6.4.0
+2018-09-14T20:22:22.653+0900	INFO	elasticsearch/client.go:163	Elasticsearch url: http://localhost:9200
+2018-09-14T20:22:22.654+0900	DEBUG	[publish]	pipeline/consumer.go:137	start pipeline event consumer
+2018-09-14T20:22:22.654+0900	INFO	pipeline/module.go:98	Beat name: GooJaYongui-MBP
+2018-09-14T20:22:22.654+0900	INFO	[monitoring]	log/log.go:114	Starting metrics logging every 30s
+2018-09-14T20:22:22.654+0900	INFO	instance/beat.go:367	filebeat start running.
+2018-09-14T20:22:22.654+0900	INFO	registrar/registrar.go:134	Loading registrar data from /Users/goojayong/mysite/data/registry
+2018-09-14T20:22:22.654+0900	INFO	registrar/registrar.go:141	States Loaded from registrar: 8
+2018-09-14T20:22:22.654+0900	INFO	crawler/crawler.go:72	Loading Inputs: 1
+2018-09-14T20:22:22.658+0900	INFO	log/input.go:138	Configured paths: [/var/log/*.log]
+2018-09-14T20:22:22.658+0900	INFO	input/input.go:114	Starting input of type: log; ID: 11204088409762598069 
+2018-09-14T20:22:22.658+0900	INFO	crawler/crawler.go:106	Loading and starting Inputs completed. Enabled inputs: 1
+2018-09-14T20:22:22.658+0900	INFO	cfgfile/reload.go:140	Config reloader started
+2018-09-14T20:22:32.659+0900	ERROR	cfgfile/reload.go:213	Error loading config: invalid config: yaml: line 9: could not find expected ':'
+2018-09-14T20:22:42.661+0900	ERROR	cfgfile/reload.go:213	Error loading config: invalid config: yaml: line 9: could not find expected ':'
+2018-09-14T20:22:52.656+0900	INFO	[monitoring]	log/log.go:141	Non-zero metrics in the last 30s	{"monitoring": {"metrics": {"beat":{"cpu":{"system":{"ticks":21,"time":{"ms":21}},"total":{"ticks":43,"time":{"ms":43},"value":43},"user":{"ticks":22,"time":{"ms":22}}},"info":{"ephemeral_id":"6ff8c4f6-8ee1-4ea6-af13-cc45a20d87a9","uptime":{"ms":30011}},"memstats":{"gc_next":4194304,"memory_alloc":2560464,"memory_total":4057200,"rss":18051072}},"filebeat":{"events":{"added":8,"done":8},"harvester":{"open_files":0,"running":0}},"libbeat":{"config":{"module":{"running":0},"reloads":2},"output":{"type":"elasticsearch"},"pipeline":{"clients":1,"events":{"active":0,"filtered":8,"total":8}}},"registrar":{"states":{"current":8,"update":8},"writes":{"success":8,"total":8}},"system":{"cpu":{"cores":4},"load":{"1":2.2651,"15":1.8335,"5":2.0332,"norm":{"1":0.5663,"15":0.4584,"5":0.5083}}}}}}
+2018-09-14T20:22:52.663+0900	ERROR	cfgfile/reload.go:213	Error loading config: invalid config: yaml: line 9: could not find expected ':'
+2018-09-14T20:23:02.668+0900	ERROR	cfgfile/reload.go:213	Error loading config: invalid config: yaml: line 9: could not find expected ':'
+2018-09-14T20:23:04.580+0900	INFO	beater/filebeat.go:437	Stopping filebeat
+2018-09-14T20:23:04.580+0900	INFO	crawler/crawler.go:139	Stopping Crawler
+2018-09-14T20:23:04.580+0900	INFO	crawler/crawler.go:149	Stopping 1 inputs
+2018-09-14T20:23:04.580+0900	INFO	cfgfile/reload.go:162	Dynamic config reloader stopped
+2018-09-14T20:23:04.580+0900	INFO	input/input.go:149	input ticker stopped
+2018-09-14T20:23:04.580+0900	INFO	input/input.go:167	Stopping Input: 11204088409762598069
+2018-09-14T20:23:04.580+0900	DEBUG	[publish]	pipeline/client.go:148	client: closing acker
+2018-09-14T20:23:04.580+0900	DEBUG	[publish]	pipeline/client.go:150	client: done closing acker
+2018-09-14T20:23:04.580+0900	DEBUG	[publish]	pipeline/client.go:154	client: cancelled 0 events
+2018-09-14T20:23:04.580+0900	INFO	crawler/crawler.go:165	Crawler stopped
+2018-09-14T20:23:04.580+0900	INFO	registrar/registrar.go:356	Stopping Registrar
+2018-09-14T20:23:04.580+0900	INFO	registrar/registrar.go:282	Ending Registrar
+2018-09-14T20:23:04.583+0900	INFO	[monitoring]	log/log.go:149	Total non-zero metrics	{"monitoring": {"metrics": {"beat":{"cpu":{"system":{"ticks":24,"time":{"ms":24}},"total":{"ticks":50,"time":{"ms":50},"value":50},"user":{"ticks":26,"time":{"ms":26}}},"info":{"ephemeral_id":"6ff8c4f6-8ee1-4ea6-af13-cc45a20d87a9","uptime":{"ms":41938}},"memstats":{"gc_next":4194304,"memory_alloc":1649368,"memory_total":5251488,"rss":18313216}},"filebeat":{"events":{"added":8,"done":8},"harvester":{"open_files":0,"running":0}},"libbeat":{"config":{"module":{"running":0},"reloads":4},"output":{"type":"elasticsearch"},"pipeline":{"clients":0,"events":{"active":0,"filtered":8,"total":8}}},"registrar":{"states":{"current":8,"update":8},"writes":{"success":9,"total":9}},"system":{"cpu":{"cores":4},"load":{"1":2.0703,"15":1.8232,"5":1.9985,"norm":{"1":0.5176,"15":0.4558,"5":0.4996}}}}}}
+2018-09-14T20:23:04.583+0900	INFO	[monitoring]	log/log.go:150	Uptime: 41.938973635s
+2018-09-14T20:23:04.583+0900	INFO	[monitoring]	log/log.go:127	Stopping metrics logging.
+2018-09-14T20:23:04.583+0900	INFO	instance/beat.go:373	filebeat stopped.
